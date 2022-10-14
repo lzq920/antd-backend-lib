@@ -1,5 +1,5 @@
 import { createApp } from 'vue'
 import './style.css'
 import App from './App.vue'
-
-createApp(App).mount('#app')
+import ProComponent from "./components"
+createApp(App).use(ProComponent).mount('#app')
